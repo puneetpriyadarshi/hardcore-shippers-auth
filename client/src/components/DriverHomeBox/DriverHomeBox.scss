@@ -1,0 +1,38 @@
+.status-pending {
+  display: flex;
+  flex-direction: column;
+  .status-info {
+    font-size: 18px;
+    padding: 0 0 14px 0;
+    span {
+      color: #d12122;
+    }
+  }
+  margin-top: 10px;
+  .confirm {
+    background: #7475ca;
+    margin-bottom: 20px;
+  }
+  .cancel {
+    color: #5c5c5c;
+    border-color: #5c5c5c;
+  }
+}
+
+.status-ongoing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  .status-info {
+    font-size: 18px;
+    padding: 0 0 14px 0;
+    span {
+      color: #36bd2a;
+    }
+  }
+  .confirm {
+    align-self: center;
+    background: #7475ca;
+    width: 70%;
+  }
+}

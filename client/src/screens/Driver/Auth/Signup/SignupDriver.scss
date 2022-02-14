@@ -1,0 +1,60 @@
+.intrested-routes {
+  .intrested-routes-head {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 4px;
+  }
+  .intrested-routes-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    span {
+      grid-column: 1/-1;
+    }
+    .input-structure {
+      select {
+        width: 220px;
+        height: 42px;
+        margin-bottom: -10px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1100px) and (min-width: 600px) {
+  .intrested-routes {
+    .intrested-routes-head {
+      font-size: 12px;
+    }
+    .intrested-routes-body {
+      span {
+        font-size: 14px;
+      }
+      .input-structure {
+        select {
+          width: 200px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .intrested-routes {
+    .intrested-routes-head {
+      font-size: 10px;
+    }
+    .intrested-routes-body {
+      span {
+        font-size: 12px;
+      }
+      .input-structure {
+        select {
+          width: 150px;
+          height: 36px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.auth-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 21px;
+  color: #020346;
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+  }
+}
+
+@media all and (max-width: 1100px) and (min-width: 850px) {
+  .auth-heading {
+    font-size: 20px;
+    img {
+      width: 46px;
+      height: 46px;
+    }
+  }
+}
+
+@media all and (max-width: 850px) and (min-width: 600px) {
+  .auth-heading {
+    font-size: 18px;
+    img {
+      width: 42px;
+      height: 42px;
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .auth-heading {
+    font-size: 16px;
+    img {
+      width: 38px;
+      height: 38px;
+    }
+  }
+}

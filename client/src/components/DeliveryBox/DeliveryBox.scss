@@ -1,0 +1,87 @@
+.delivery-box {
+  justify-self: center;
+  width: 320px;
+  background: #ffffff;
+  /* shadow */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  padding: 25px 40px 45px 40px;
+  .product-delivery-nature {
+    font-weight: normal;
+    font-size: 21px;
+    padding: 4px 0;
+  }
+  .product-delivery-number {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 4px 0;
+  }
+  .product-delivery-source,
+  .product-delivery-destination {
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  .product-delivery-driver {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 0 15px 0;
+  }
+
+  .product-delivery-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .line {
+      z-index: 0;
+      width: 100px;
+      height: 7px;
+      background: #e4e4e4;
+      margin: 0 -5px;
+    }
+    .content-recieved {
+      &:after {
+        content: "Recieved";
+      }
+    }
+    .content-route {
+      &:after {
+        content: "In Route";
+      }
+    }
+    .content-delivered {
+      &:after {
+        content: "Delivered";
+      }
+    }
+    .circle {
+      z-index: 1;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #e4e4e4;
+      &:after {
+        position: absolute;
+        transform: translate(-40%, 16px);
+        font-size: 12px;
+        font-weight: 600;
+        color: #e4e4e4;
+      }
+    }
+    .blue-status {
+      background: #0e1844;
+      &:after {
+        color: #0e1844;
+      }
+    }
+    .green-status {
+      background: #36bd2a;
+      &:after {
+        color: #36bd2a;
+      }
+    }
+    .red-status {
+      background: #d12122;
+    }
+  }
+}

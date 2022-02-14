@@ -1,0 +1,33 @@
+.landing-button {
+  text-decoration: none;
+  button {
+    color: #0e1844;
+    border: 1px solid #0e1844;
+    width: 180px;
+    height: 48px;
+  }
+}
+
+@media all and (max-width: 1100px) and (min-width: 850px) {
+  .landing-button {
+    button {
+      color: #0e1844;
+      border: 1px solid #0e1844;
+      font-size: 12px;
+      width: 150px;
+      height: 45px;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .landing-button {
+    button {
+      color: #0e1844;
+      border: 1px solid #0e1844;
+      font-size: 12px;
+      width: 150px;
+      height: 45px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@mixin FlexCenter($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin Transition($duration: 0.24s, $easing: ease-in-out) {
+  transition: all $duration $easing;
+}
+
+@mixin NavShadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+@mixin BorderBottom($color: #e6e6e6) {
+  border-bottom: 1px solid $color;
+}
+
+$nav-background: #7475ca;
+$nav-inactive-text: #020346;
+$nav-active-text: #ffffff;
+$white: #ffffff;
+$text-medium: #5c5c5c;
+$danger: #850606;
+$text-light: #aaaaaa;
+$table-seperator: #eaffe7;
+$black: #000000;
+$table-head: #075e54;

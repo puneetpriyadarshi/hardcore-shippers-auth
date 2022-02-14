@@ -1,0 +1,7 @@
+.mapping-history {
+  margin: 32px 40px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}

@@ -1,0 +1,32 @@
+.heading-status {
+  margin-left: 50px;
+}
+.dealer-booking-status {
+  margin: 40px 0;
+  .nothing-status {
+    margin-left: 50px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .heading-status {
+    margin-left: 30px;
+  }
+  .dealer-booking-status {
+    margin: 32px 0;
+    .nothing-status {
+      margin-left: 30px;
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .heading-status {
+    margin-left: 15px;
+  }
+  .dealer-booking-status {
+    margin: 24px 0;
+    .nothing-status {
+      margin-left: 15px;
+    }
+  }
+}

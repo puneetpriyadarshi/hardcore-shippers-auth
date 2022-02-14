@@ -1,0 +1,126 @@
+.ProfileHeading {
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 27px;
+  color: #5c5c5c;
+  display: flex;
+  justify-content: center;
+  .head-profile {
+    padding: 5px 24px;
+    border-bottom: 1.6px solid #5c5c5c;
+  }
+}
+
+.driver-route {
+  margin: 10px 20px;
+  label {
+    font-size: 14px;
+    color: #5c5c5c;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .driver-route-detail {
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+.input-structure-profile {
+  margin: 10px 20px;
+  label {
+    font-size: 14px;
+    color: #5c5c5c;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .input-structure-detail {
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.driver-route {
+  grid-column: 1/-1;
+  margin: 10px 20px;
+  label {
+    font-size: 14px;
+    color: #5c5c5c;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .driver-route-detail {
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+.driver-info,
+.dealer-info {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  background-color: white;
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media all and (max-width: 800px) {
+  .driver-info,
+  .dealer-info {
+    width: 400px;
+    grid-template-columns: 1fr;
+    margin: 17px auto;
+    padding: 24px 32px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .ProfileHeading {
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    .head-profile {
+      padding: 3px 16px;
+      border-bottom: 1px solid #5c5c5c;
+    }
+  }
+  .input-structure-profile {
+    margin: 7px 14px;
+    label {
+      font-size: 11px;
+      color: #5c5c5c;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .input-structure-detail {
+      font-size: 15px;
+      color: black;
+    }
+  }
+  .driver-route {
+    margin: 7px 14px;
+    label {
+      font-size: 11px;
+      color: #5c5c5c;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .driver-route-detail {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .driver-info,
+  .dealer-info {
+    width: 360px;
+    display: block;
+    margin: 14px auto;
+    padding: 20px 28px;
+  }
+}
