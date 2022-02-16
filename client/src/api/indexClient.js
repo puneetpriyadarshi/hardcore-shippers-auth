@@ -12,6 +12,6 @@ API.interceptors.request.use((req) => {
   return req;
 });
 export const signInClient = (formDataClient) =>
-  API.post("/user/client/signin", formDataClient);
+  API.get("/user/client/signin", formDataClient);
 export const signUpClient = (formDataClient) =>
   API.post("/user/client/signup", formDataClient);

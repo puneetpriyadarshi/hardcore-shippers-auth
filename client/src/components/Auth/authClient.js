@@ -159,3 +159,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+export { formDataClient };
